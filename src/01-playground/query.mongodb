@@ -1,0 +1,74 @@
+/*Consulta # 1*/
+use("Veterinaria")
+db.Guardería.find({FechaEN:"02-05-2023"});
+
+db.Guardería.insertMany([{
+    "FechaEN": "03-05-2023",
+    "FechaSAL": "03-05-2023",
+    "HoraSAL": "20:00",
+    "HoraEN": "10:00",
+    "Valor": "40.000"
+},
+
+{"FechaEN": "03-05-2023",
+" FechaSAL": "03-05-2023",
+" HoraSAL": "14:00",
+"HoraEN": "07:00",
+"Valor": "28.000"
+},
+
+{"FechaEN": "03-05-2023",
+" FechaSAL": "03-05-2023",
+" HoraSAL": "18:00",
+"HoraEN": "06:00",
+"Valor": "54.000"
+},
+
+{"FechaEN": "04-05-2023",
+" FechaSAL": "04-05-2023",
+" HoraSAL": "17:00",
+"HoraEN": "07:00",
+"Valor": "40.000"},
+
+{"FechaEN": "05-05-2023",
+" FechaSAL": "05-05-2023",
+" HoraSAL": "13:00",
+"HoraEN": "07:00",
+"Valor": "24.000"
+},
+
+{"FechaEN": "06-05-2023",
+" FechaSAL": "06-05-2023",
+" HoraSAL": "15:00",
+"HoraEN": "06:00",
+"Valor": "44.000"
+},
+
+{"FechaEN": "06-05-2023",
+"FechaSAL": "06-05-2023",
+"HoraSAL": "14:00",
+"HoraEN": "07:00",
+"Valor": "36.000"
+},
+
+{"FechaEN": "07-05-2023",
+"FechaSAL": "07-05-2023",
+"HoraSAL": "20:00",
+"HoraEN": "06:00",
+"Valor": "56.000"
+},
+
+{"FechaEN": "08-05-2023",
+" FechaSAL": "08-05-2023",
+" HoraSAL": "18:00",
+"HoraEN": "08:00",
+"Valor": "40.000"
+},
+
+{"FechaEN": "09-05-2023",
+" FechaSAL": "09-05-2023",
+" HoraSAL": "18:00",
+"HoraEN": "18:00",
+"Valor": "48.000"
+}]);
+
